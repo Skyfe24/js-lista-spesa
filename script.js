@@ -1,22 +1,26 @@
 console.log("JS OK");
 
-const result = document.getElementById('lista');
+const list = document.getElementById("list");
 
 const listElements = ['pane','latte','insalata','pollo'];
 
-let printList= ' ';
+let Startlist = '<ul>'
+let i = 0;
 //
-//for (i=0; i < listElements.lenght; i++) {
+//for (i=0; i < listElements.length; i++) {
 //
-//  printList += `<li>${listElements[i]}</li>`;
- // 
-//  
-//
-//  
+//  Startlist += `<li>${listElements[i]}</li>`;
+//  console.log(listElements[i])
 //}
-//result.innerHTML = printList;
-while (printList <listElements.lenght){
-  printList += `<li>${listElements[i]}</li>`;
+//
+//let Endlist = '</ul>';
+//list.innerHTML = Startlist + Endlist;
+while (i < listElements.length){
+  Startlist += `<li>${listElements[i]}</li>`;
   i++;
+  console.log(listElements[i])
+  
 }
-result.innerHTML = printList;
+let Endlist = '</ul>';
+list.innerHTML = Startlist + Endlist;
+
