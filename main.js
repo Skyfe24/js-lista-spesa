@@ -9,4 +9,4 @@ let printItem = '';
 for (i=0; i < prodotti.lenght; i++)
 printItem += prodotti[i];
 
-
+listElement.innerHTML = printItem;
