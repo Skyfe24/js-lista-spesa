@@ -5,6 +5,9 @@ Consigli:
 - Ricordiamoci di inizializzare la variabile di contatore prima dell'inizio del ciclo while
 - Ricordiamoci di incrementare il contatore all'interno ciclo while per evitare di cascare in un loop infinito.
 
+1. chiamo dove devo stampare i prodotti della lista
+2. creo il mio array di prodotti
+
 
 
 
